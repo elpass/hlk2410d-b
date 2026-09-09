@@ -1,4 +1,4 @@
-English | 简体中文
+English | [简体中文](https://github.com/elpass/hlk2410d-b/blob/main/README_CN.md)
 # LD2410D-B BLE Integration
 
 A Home Assistant integration for the HiLink LD2410D-B Bluetooth motion sensor.
