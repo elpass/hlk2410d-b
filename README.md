@@ -73,9 +73,9 @@ The integration uses Bluetooth discovery. Simply add your device through the Hom
 
 ## Dependencies
 
-- `bluetooth-data-tools==1.29.21`
-- `hlk2410d-b==0.1.1`
-- `bluetooth_adapters` (Home Assistant component)
+- `bleak>=0.21.0`
+- `bleak-retry-connector>=2.0.0`
+- `bluetooth_adapters` (Home Assistant component / ESP32 C3+ (bluetooth proxy) is Recommend)
 
 ## Troubleshooting
 
@@ -117,8 +117,7 @@ For issues, questions, or feature requests, please visit:
 
 ## Credits
 
-- Original integration: [@930913](https://github.com/930913)
-- LD2410 BLE Library: [ld2410-ble](https://pypi.org/project/ld2410-ble/)
+- Original integration: [@megarushing](https://github.com/megarushing/ha-ld2410)
 - Home Assistant Bluetooth Framework
 
 ## Disclaimer
