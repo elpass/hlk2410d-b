@@ -50,20 +50,8 @@ The integration uses Bluetooth discovery. Simply add your device through the Hom
 
 ## Entities
 
-### Binary Sensors
-- **Motion** - Detects moving targets (Motion class)
-- **Occupancy** - Detects static presence (Occupancy class)
-
 ### Sensors
 - **Target Distance** - Distance to target (cm)
-- **Static Target Distance** - Distance to static target (cm)
-- **Detection Distance** - Overall detection range (cm)
-- **Moving Target Energy** - Energy level of moving target
-- **Static Target Energy** - Energy level of static target
-- **Motion Energy Gates** (0-8) - Individual gate energy for motion detection
-- **Static Energy Gates** (0-8) - Individual gate energy for static detection
-- **Max Motion Gates** - Number of motion detection gates
-- **Max Static Gates** - Number of static detection gates
 
 ## Requirements
 
