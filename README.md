@@ -1,3 +1,4 @@
+English | 简体中文
 # LD2410D-B BLE Integration
 
 A Home Assistant integration for the HiLink LD2410D-B Bluetooth motion sensor.
