@@ -24,9 +24,10 @@
 ## 三、 安装与配置
 
 ### 3.1 安装前提
-- Home Assistant 版本 ≥ 2023.x
+- Home Assistant 版本 ≥ 2024.x
 - HA 主机具备蓝牙功能（内置蓝牙或 USB 蓝牙适配器）
 - 已安装 **Bluetooth** 集成并正常运行
+- 推荐使用 ESP32蓝牙代理 更稳定 (ESP32 C3 SUPER MINI PRO)
 
 ### 3.2 安装方式
 
@@ -37,7 +38,6 @@
    custom_components/hlk2410d_b/
    ├── __init__.py
    ├── manifest.json
-   ├── icon.png          ← 设备图标（256×256 PNG）
    ├── const.py
    ├── ble_manager.py
    ├── coordinator.py
