@@ -1,0 +1,17 @@
+{
+  "domain": "hlk2410d_b",
+  "name": "HLK-LD2410D-B",
+  "codeowners": ["@elpass"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/elpass/hlk2410d-b#readme",
+  "integration_type": "device",
+  "bluetooth": [
+    {
+      "local_name": "HLK-2410D-B*"
+    }
+  ],
+  "iot_class": "local_push",
+  "requirements": ["bleak>=0.21.0", "bleak-retry-connector>=2.0.0"],
+  "version": "1.1.0"
+}
