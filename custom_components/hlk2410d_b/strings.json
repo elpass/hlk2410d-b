@@ -1,0 +1,21 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "选择 HLK-LD2410D-B 设备",
+        "description": "选择要添加的蓝牙雷达模块",
+        "data": {
+          "address": "设备"
+        }
+      },
+      "bluetooth_confirm": {
+        "description": "是否要设置 {name}？"
+      }
+    },
+    "abort": {
+      "already_configured": "该设备已配置",
+      "no_devices_found": "未发现 HLK-LD2410D-B 设备，请确认设备已通电且在蓝牙范围内"
+    }
+  }
+}
